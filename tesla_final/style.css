@@ -1,0 +1,127 @@
+body{
+    color: #171a28;
+    font-family: 'Rubik', sans-serif;;
+}
+header{
+    display:grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 5px 20px;
+    position: fixed;
+    
+}
+a.logo{
+    padding-top: 25px;
+    height: 18px;
+    width: 150px;
+    color:inherit;
+}
+header a{
+    color: inherit;
+   
+}
+header nav a{
+    text-decoration: none;
+    padding:5px 10px ;
+}
+header nav.center{
+    text-align: center;
+}
+section{
+   height: 100vh;
+   background-size: cover;
+  
+}
+.cent{
+    padding-top: 25px;
+    padding-left: 250px;
+    font-weight: 550;
+    font-size:large
+    
+}
+.rgt{
+    padding-top: 25px;
+   padding-left: 250px;
+    font-weight: 550;
+    font-size:large   
+}
+
+
+.content{
+     position: absolute; 
+    margin-left: 40%;
+    margin-top: 7%;
+}
+
+.content h1{
+    font-size: 50px;
+   margin-right: 20px;
+}
+.content p{
+    font-size: 25px;
+    font-weight: 250;
+    
+}
+
+.links{
+    padding-top: 70px;
+    position: absolute;
+    margin-top: 42%;
+    margin-left: 30%;
+}
+
+.links .custom{
+    margin-right: 20px;
+    padding: 18px 96px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(37, 37, 37);
+    border-radius: 7px;
+}
+
+.links .demo{
+    padding-left: 20px;
+    padding: 18px 96px;
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    border-radius: 7px;
+}
+.pgraph a{
+    
+   color: black;
+   size: 25px;
+   
+}
+.links .acc{
+    margin-left: 210px;
+    
+     padding: 18px 96px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(37, 37, 37);
+    border-radius: 7px;
+}
+.footer p a{
+   
+    padding-right: 40px;
+    text-decoration-line: none;
+    color: rgb(112, 112, 111);
+  } 
+ 
+.footer{
+    /* width: 1680px;*/
+    height: 90px; 
+    background-color: white;
+    margin-top: -16px;
+    text-align: center;
+    padding-top: 5px;
+  
+}
+.flink{
+    padding-right: 50px;
+    color: rgb(112, 112, 111);
+} 
+/* .footer p{
+   text-align: center;
+   text-decoration: none;
+}  */
